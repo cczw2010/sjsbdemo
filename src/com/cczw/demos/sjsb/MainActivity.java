@@ -1,7 +1,5 @@
 package com.cczw.demos.sjsb;
 
-import com.example.sjsbtest.R;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;

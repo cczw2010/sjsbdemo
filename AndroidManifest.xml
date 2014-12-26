@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.sjsbtest"
+    package="com.cczw.demos.sjsb"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -56,7 +56,7 @@
                 <action android:name="android.intent.action.VIEW" />显示数据  
                 <category android:name="android.intent.category.DEFAULT" />  
                 <category android:name="android.intent.category.BROWSABLE" />定义成浏览器类型，有URL需要处理时会过滤  
-                <data android:scheme="@string/app_scheme" android:host="com.example.sjsbtest" />
+                <data android:scheme="@string/app_scheme" android:host="com.cczw.demos.sjsb" />
             </intent-filter>
         </activity>
      <!-- 以下部门是sjsb库工程必须，不需要修改 -->
